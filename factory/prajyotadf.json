@@ -1,0 +1,9 @@
+{
+	"name": "prajyotadf",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "39fee8d2-1596-481b-8a89-591ae8594a81",
+		"tenantId": "95294e5c-ae54-4a8b-ae38-d8fdabc964c7"
+	}
+}

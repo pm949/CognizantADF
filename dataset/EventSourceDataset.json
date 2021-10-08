@@ -1,0 +1,80 @@
+{
+	"name": "EventSourceDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "MyFile",
+				"container": "adf"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Year",
+				"type": "String"
+			},
+			{
+				"name": "EmployeeID",
+				"type": "String"
+			},
+			{
+				"name": "M01",
+				"type": "String"
+			},
+			{
+				"name": "M02",
+				"type": "String"
+			},
+			{
+				"name": "M03",
+				"type": "String"
+			},
+			{
+				"name": "M04",
+				"type": "String"
+			},
+			{
+				"name": "M05",
+				"type": "String"
+			},
+			{
+				"name": "M06",
+				"type": "String"
+			},
+			{
+				"name": "M07",
+				"type": "String"
+			},
+			{
+				"name": "M08",
+				"type": "String"
+			},
+			{
+				"name": "M09",
+				"type": "String"
+			},
+			{
+				"name": "M10",
+				"type": "String"
+			},
+			{
+				"name": "M11",
+				"type": "String"
+			},
+			{
+				"name": "M12",
+				"type": "String"
+			}
+		]
+	}
+}

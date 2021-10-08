@@ -1,0 +1,12 @@
+{
+	"name": "EVentdestinationdataser",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlOLAPDatabaseLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
